@@ -1,0 +1,6 @@
+walletclient= "/root/Downloads/bitcoin-0.16.0/bin/bitcoin-cli"
+walletdir="/root/.bitcoin"
+walletconf="/root/.bitcoin/bitcoin.conf"
+walletcurreny="BTC"
+walletnetwork="live"
+args="listsinceblock 0"

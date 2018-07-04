@@ -1,0 +1,9 @@
+go build -o deploy-signup rpcx-signup.go && pm2 start deploy-signup
+go build -o deploy-server  server.go rpcx-client.go  && pm2 start deploy-server
+go build -o deploy-login rpcx-login.go && pm2 start deploy-login
+go build -o generators generate_address.go
+go build -o deploy-monetiser_add rpcx-monetize-add.go && pm2 start deploy-monetiser_add
+go build -o deploy-monetiser_get rpcx-monetize-get.go && pm2 start deploy-monetiser_get
+go build -o deploy-monetiser_list rpcx-monetize-list.go && pm2 start deploy-monetiser_list
+go build -o deploy-userinfo rpcx-userinfo.go && pm2 start deploy-userinfo
+go build -o deploy-userinfo_get rpcx-getuserinfo.go && pm2 start deploy-userinfo_get

@@ -1,0 +1,6 @@
+walletclient= "/root/Downloads/litecoin-0.16.0/bin/litecoin-cli"
+walletdir="/root/.litecoin"
+walletconf="/root/.litecoin/litecoin.conf"
+walletcurreny="LTC"
+walletnetwork="live"
+args="listsinceblock 0"

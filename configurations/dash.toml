@@ -1,0 +1,6 @@
+walletclient= "/root/Downloads/dashcore-0.12.2/bin/dash-cli"
+walletdir="/root/.dashcore"
+walletconf="/root/.dashcore/dash.conf"
+walletcurreny="DASH"
+walletnetwork="live"
+args="listsinceblock 0"
